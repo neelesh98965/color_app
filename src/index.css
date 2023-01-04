@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app{
+  height: 400px;
+  width: 400px;
+  box-shadow: 2px 2px 5px #000;
+  display: grid;
+  margin-left: 600px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  border-radius: 0.25rem;
+  place-content: center;
+}
+
+.label{
+  margin-left: 600px;
+  font-size: 1.5rem;
+}
+.input_box {
+  margin-top: 0.5rem;
+  margin-left: 600px;
+  width: 400px;
+  font-size: 1.5rem;
+  height: 35px;
+  display: flex;
+}
